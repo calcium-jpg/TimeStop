@@ -16,6 +16,8 @@ public class PlayerListener implements Listener {
         Server server = player.getServer();
 
         if (server.getOnlinePlayers().size() == 1) {
+            server.getLogger().info("[TimeStop] Last player left, daylight cycle set to false!");
+
             for (World world : server.getWorlds()) {
                 world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, false);
             }
