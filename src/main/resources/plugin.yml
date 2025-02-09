@@ -1,4 +1,4 @@
 name: TimeStop
 version: '${version}'
 main: place.calcium.timestop.TimeStop
-api-version: '1.21'
+api-version: '1.17'

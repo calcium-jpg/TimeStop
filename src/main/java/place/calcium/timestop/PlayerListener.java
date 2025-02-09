@@ -34,6 +34,5 @@ public class PlayerListener implements Listener {
         for (World world : server.getWorlds()) {
             world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, true);
         }
-
     }
 }
